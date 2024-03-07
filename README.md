@@ -44,14 +44,14 @@ fi
 
 *******************************************************************************************
 
-step3. After all this done. We will need to copy this script in the s3 bucket.
+Step3 - After all this done. We will need to copy this script in the s3 bucket.
 
-Step4. We will add a stage in the Jenkins before build stage to pull & run the script from s3 bucket to local directory. This will create a new file of secretes 
-       in jenkins. all the secretes will be pulled from AWS secretes, as per script. 
+Step4 - We will add a stage in the Jenkins before build stage to pull & run the script from s3 bucket to local directory. This will create a new file of 
+        secretes in jenkins. all the secretes will be pulled from AWS secretes, as per script. 
 
-Step5. Till Now we will be having secret file with all secrets mentioned. Now we want that content of the secret file to be coppied in the empty .env file came 
+Step5 - Till Now we will be having secret file with all secrets mentioned. Now we want that content of the secret file to be coppied in the empty .env file came 
        along with the code commit pull.  
 
-Step6. We will add command in Docker file to copy the content of the secret file in .env file. 
+Step6 - We will add command in Docker file to copy the content of the secret file in .env file. 
 
 ********************************** END OF JOB  ****************************************************
