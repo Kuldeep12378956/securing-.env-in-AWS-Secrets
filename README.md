@@ -1,5 +1,8 @@
 # securing-.env-in-AWS-Secrets
 
+
+![Screenshot 2023-04-14 at 7 06 46 PM](https://user-images.githubusercontent.com/43399466/232058778-a7299e9b-9892-471c-a05d-14d773b5b333.png)
+
 It is not recommended to keep the passwords and secret credentials in the git hub, code commit. etc. it is major securirty concern. so just to overcome that, we can use the AWS service called AWS Secretes to keep them secure.
 
 ### This is how to achive it.
