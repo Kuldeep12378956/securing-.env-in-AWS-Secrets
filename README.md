@@ -1,4 +1,4 @@
-# securing-.env-in-AWS-Secrets
+# securing .env-in-AWS-Secrets
 
 
 ![Screenshot 2023-04-14 at 7 06 46 PM](caf.drawio.png)
